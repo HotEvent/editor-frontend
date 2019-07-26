@@ -1,4 +1,3 @@
-import "../styles/style.scss";
 import "./editor.scss";
 import smoothscroll from 'smoothscroll-polyfill';
 
