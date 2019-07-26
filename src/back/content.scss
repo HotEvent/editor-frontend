@@ -1,0 +1,106 @@
+// body {
+//     overflow: hidden;
+// }
+
+
+// ul.menu{
+//     display: none;
+// }
+/* Alignment styles for images, videos and iframes in editable regions */
+
+/* Center (default) */
+[data-editable] iframe,
+[data-editable] image,
+[data-editable] [data-ce-tag=img],
+[data-editable] img,
+[data-editable] video {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Left align */
+[data-editable] .align-left {
+    clear: initial;
+    float: left;
+    margin-right: 0.5em;
+}
+
+/* Right align */
+[data-editable].align-right {
+    clear: initial;
+    float: right;
+    margin-left: 0.5em;
+}
+
+/* Alignment styles for text in editable regions */
+[data-editable] .text-center {
+    text-align: center;
+}
+
+[data-editable] .text-left {
+    text-align: left;
+}
+
+[data-editable] .text-right {
+    text-align: right;
+}
+
+.modal{
+    transition: all 1s;
+    padding: 67px;
+    width: 705px;
+    left: 161px;
+    position: relative;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.14902);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.14902);
+    h1{
+        margin: 0px;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "kern" 1;
+        -webkit-font-feature-settings: "kern";
+        -moz-font-feature-settings: "kern";
+        -moz-font-feature-settings: "kern=1";
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        white-space: nowrap;
+        font-family: 'Arial Normal', 'Arial';
+        font-weight: 400;
+        font-style: normal;
+        color: #333333;
+        text-align: center;
+        line-height: normal;
+        border-width: 0px;
+        width: 407px;
+        height: 57px;
+        margin-bottom: 48px;
+        font-size: 48px;
+    }
+    p{
+        font-size: 18px;
+        text-align: left;
+        font-family: 'Arial Normal', 'Arial';
+        font-weight: 400;
+        font-style: normal;
+        color: #333333;
+        line-height: normal;
+    }
+    &.full{
+        width: calc(705px + 322px);
+        left: 0px;
+    }
+}
+
+#update{
+    position: absolute;
+    top: 100px;
+}
