@@ -54,10 +54,11 @@ div.fp-page-toolbar {
   transform: scale(0.25);
   transform-origin: 25px 25px;
   float: left;
+  text-align: center;
   iframe{
     height: 100%;
     width: 100%;
     border: none;
-    text-align: center;
+    // text-align: center;
   }
 }
